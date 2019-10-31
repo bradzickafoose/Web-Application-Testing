@@ -4,8 +4,8 @@ import './App.css';
 import Display from './components/Display';
 import Dashboard from './components/Dashboard';
 
-export const addPoint = (currentPoint) => {
-	return currentPoint;
+const addPoint = (currentPoint) => {
+	return currentPoint + 1;
 };
 
 function App() {

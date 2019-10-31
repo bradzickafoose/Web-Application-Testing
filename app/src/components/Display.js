@@ -2,6 +2,7 @@ import React from 'react';
 import '../App.css';
 
 export default function Display(props) {
+	console.log('Display:', props);
 	return (
 		<div className='display'>
 			<div className='display-count'>
