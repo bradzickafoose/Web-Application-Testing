@@ -1,6 +1,6 @@
 .App {
 	text-align: center;
-	background-color: #026f39;
+	background-color: #282c34;
 	height: 100vh;
 }
 
@@ -9,7 +9,6 @@
 }
 
 .App-header {
-	background-color: #282c34;
 	min-height: 240px;
 	display: flex;
 	flex-direction: column;
@@ -25,9 +24,11 @@
 
 .display {
 	display: flex;
+	align-items: stretch;
 	justify-content: space-evenly;
-	border-bottom: 3px solid #fff;
-	border-top: 3px solid #fff;
+	background-color: #026f39;
+	border-bottom: 5px solid #fff;
+	border-top: 5px solid #fff;
 }
 
 .display-count {
@@ -44,5 +45,38 @@
 	background-color: rgb(19, 19, 19);
 	color: red;
 	font-size: 2rem;
+	padding: .75em .75em;
+	margin-top: 12px;
+}
+
+.dashboard {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
 	padding: 1em;
+	background-color: #026f39;
+	border-bottom: 5px solid #fff;
+}
+
+.dashboard button {
+	padding: .5em 0;
+	background-color: #0a8f4c;
+	border-radius: 4px;
+	border: 1px solid #026f39;
+	color: #fff;
+	font-size: 1.5rem;
+	font-weight: bold;
+	width: 100%;
+}
+
+.dashboard button:hover {
+	background-color: #03582e;
+	border-color: #0a8f4c;
+	color: #fff;
+}
+
+.dashboard button:active {
+	background-color: #00361b;
+	border-color: #0a8f4c;
+	color: #fff;
 }

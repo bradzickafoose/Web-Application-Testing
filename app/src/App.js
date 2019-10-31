@@ -32,7 +32,8 @@ function App() {
 
 	const foulChange = () => {
 		if (strikeState < 2) {
-			setStrikeState(addPoint(strikeState));
+			// setStrikeState(addPoint(strikeState));
+			strikeChange();
 		}
 	};
 
