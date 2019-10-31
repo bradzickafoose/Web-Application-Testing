@@ -13,7 +13,7 @@ function App() {
 	const [ strikeState, setStrikeState ] = useState(0);
 
 	const ballChange = () => {
-		if (ballState === 4) {
+		if (ballState === 3) {
 			setBallState(0);
 			setStrikeState(0);
 		} else {
@@ -22,7 +22,7 @@ function App() {
 	};
 
 	const strikeChange = () => {
-		if (strikeState === 3) {
+		if (strikeState === 2) {
 			setBallState(0);
 			setStrikeState(0);
 		} else {
