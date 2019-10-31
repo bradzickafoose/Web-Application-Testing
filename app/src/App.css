@@ -1,5 +1,7 @@
 .App {
 	text-align: center;
+	background-color: #026f39;
+	height: 100vh;
 }
 
 .App-logo {
@@ -19,4 +21,28 @@
 
 .App-link {
 	color: #09d3ac;
+}
+
+.display {
+	display: flex;
+	justify-content: space-evenly;
+	border-bottom: 3px solid #fff;
+	border-top: 3px solid #fff;
+}
+
+.display-count {
+	padding: 1em .75em;
+}
+
+.display-title {
+	color: #fff;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.display-num {
+	background-color: rgb(19, 19, 19);
+	color: red;
+	font-size: 2rem;
+	padding: 1em;
 }

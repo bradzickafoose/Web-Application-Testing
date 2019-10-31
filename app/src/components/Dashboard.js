@@ -1,12 +1,13 @@
 import React from 'react';
+import '../App.css';
 
 export default function Dashboard() {
 	return (
 		<div className='dashboard'>
-			<div>Strike</div>
-			<div>Ball</div>
-			<div>Foul</div>
-			<div>Hit</div>
+			<button>Strike</button>
+			<button>Ball</button>
+			<button>Foul</button>
+			<button>Hit</button>
 		</div>
 	);
 }
