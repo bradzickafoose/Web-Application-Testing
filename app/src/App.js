@@ -4,7 +4,7 @@ import './App.css';
 import Display from './components/Display';
 import Dashboard from './components/Dashboard';
 
-const addPoint = (currentPoint) => {
+export const addPoint = (currentPoint) => {
 	return currentPoint + 1;
 };
 

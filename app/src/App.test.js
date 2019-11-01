@@ -1,9 +1,17 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import App, { addPoint } from './App';
+import { render } from '@testing-library/react';
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
-  ReactDOM.unmountComponentAtNode(div);
+test('renders without crashing', () => {
+	const div = document.createElement('div');
+	render(<App />);
+});
+
+test('strikes displays', () => {
+	const container = render(<App />);
+	container.getByText(/strikes/i);
+});
+
+test('adds 1 point to display', () => {
+	expect(addPoint(0)).toBe(1);
 });
