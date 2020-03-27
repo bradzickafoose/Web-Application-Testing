@@ -1,0 +1,82 @@
+.App {
+	text-align: center;
+	background-color: #282c34;
+	height: 100vh;
+}
+
+.App-logo {
+	height: 134px;
+}
+
+.App-header {
+	min-height: 240px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #09d3ac;
+}
+
+.display {
+	display: flex;
+	align-items: stretch;
+	justify-content: space-evenly;
+	background-color: #026f39;
+	border-bottom: 5px solid #fff;
+	border-top: 5px solid #fff;
+}
+
+.display-count {
+	padding: 1em .75em;
+}
+
+.display-title {
+	color: #fff;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.display-num {
+	background-color: rgb(19, 19, 19);
+	color: red;
+	font-size: 2rem;
+	padding: .75em .75em;
+	margin-top: 12px;
+}
+
+.dashboard {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	padding: 1em;
+	background-color: #026f39;
+	border-bottom: 5px solid #fff;
+}
+
+.dashboard button {
+	padding: .5em 0;
+	background-color: #0a8f4c;
+	border-radius: 4px;
+	border: 1px solid #026f39;
+	color: #fff;
+	font-size: 1.5rem;
+	font-weight: bold;
+	width: 100%;
+}
+
+.dashboard button:hover {
+	background-color: #03582e;
+	border-color: #0a8f4c;
+	color: #fff;
+}
+
+.dashboard button:active {
+	background-color: #00361b;
+	border-color: #0a8f4c;
+	color: #fff;
+}
